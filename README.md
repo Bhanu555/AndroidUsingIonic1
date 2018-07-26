@@ -2,7 +2,7 @@
 Android mobile app for video visitation using Ionic1/Angularjs
 
 Steps to build an ionic1 angularjs app 
-a. Start a new ionic project by specifying its type
+* Start a new ionic project by specifying its type
 
 ionic start NewIonic1App blank --type ionic1 
 
