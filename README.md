@@ -28,20 +28,27 @@ configurations.all {
     }
 }
 
-* make sure the manifest tag holds this xmnlns link:  xmlns:android="http://schemas.android.com/apk/res/android" in your AndroidMnaifest.xml file
+* make sure the manifest tag holds this xmnlns link: 
 
-* make sure the widget tag holds this xmlns link xmlns:android="http://schemas.android.com/apk/res/android" in your config.xml file
-* get an access token to join the room using app.js script. 
+xmlns:android="http://schemas.android.com/apk/res/android" in your AndroidMnaifest.xml file
+
+* make sure the widget tag holds this xmlns link:
+
+xmlns:android="http://schemas.android.com/apk/res/android" in your config.xml file
+
+* get an access token to join the room using app.js script
+
 * Do ionic serve to check your app on the browser 
+
 * Connect your phone using an USB cable, check if the Devleoper optiuons{} is ON on your android phone ( Go to --> Settings --> About Phone --> Build Number --> click on it 7 times) and now you are a developer. 
 * Check if Developer options{} exists on your phone, and turn this option ON 
 * Check for USB debugging is activated! 
 
-Build your app using:
+* Build your app using:
 
 ionic cordova Build android --device 
 
-Run your app using: 
+* Run your app using: 
 
 ionic cordova run android --device 
 
